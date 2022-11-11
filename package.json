@@ -1,0 +1,22 @@
+{
+  "name": "cfb-curso-de-javascript-01---document.write-introducao",
+  "version": "1.0.0",
+  "description": "criar executaveis-like on press enter",
+  "main": "05-aula-057-objetos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evandro2019/awesome-codes.git"
+  },
+  "author": "provedor-tech-solutions",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evandro2019/awesome-codes/issues"
+  },
+  "homepage": "https://github.com/Evandro2019/awesome-codes#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class-car</title>
+    <script>
+        class Car {
+          constructor(HFquote,name, year) {
+            this.frase=HFquote;
+            this.name = name;
+            this.year = year;
+          }
+        }
+        
+        const myCar = new Car("To do more for the world than the world does for you. That is success. ","Ford ", 1903);
+        const myCar2 = new Car("same above","Volvo ", 1855);
+        const myCar3 = new Car('same above',"Mercedez benz ", "16ton");
+        document.writeln('<h1>',myCar.frase,myCar.name,myCar.year)
+        
+        document.writeln('<h1>',myCar2.frase,myCar2.name,myCar2.year)
+        
+        document.writeln('<h1>',myCar3.frase,myCar3.name,myCar3.year)
+        
+        
+        </script>
+    
+
+</head>
+    
+<body>
+    <a href="https://corporate.ford.com/about/history.html"><h1>Ford History</a>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Class</h2>
+
+<p>How to use a JavaScript Class.</p>
+
+<p id="demo"></p>
+document.getElementById("demo").innerHTML =
+myCar.name + " " + myCar.year;
+</script>
+
+</body>
+</html>
